@@ -165,9 +165,10 @@ footer{
  
 
   @media screen and (max-width: 768px) {
-  .menu,  .menucontainer, .menucontainer .principal {     
+  .menu,  .menucontainer, .menucontainer  .principal {     
         width: 100%;
         border-right: 0px;
         margin-top: 15px;
+        background-color: #00527e ;
     }
 }
