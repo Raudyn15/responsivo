@@ -168,5 +168,6 @@ footer{
   .menu,  .menucontainer, .menucontainer .principal {     
         width: 100%;
         border-right: 0px;
+        margin-top: 15px;
     }
 }
