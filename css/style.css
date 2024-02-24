@@ -157,9 +157,11 @@ footer{
     /* For mobile phones: */
     [class*="col-"] {
       width: 100%;
+      height: auto;
     }
   }
   
+
  
 
   @media screen and (max-width: 768px) {
