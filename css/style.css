@@ -165,7 +165,7 @@ footer{
  
 
   @media screen and (max-width: 768px) {
-    .menucontainer, .menucontainer .principal {     
+  .menu,  .menucontainer, .menucontainer .principal {     
         width: 100%;
         border-right: 0px;
     }
