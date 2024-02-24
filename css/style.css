@@ -1,0 +1,170 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.outer {
+    position: relative;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: initial;
+   
+}
+
+/* Inicio Header*/
+
+.encPrincipal{
+    height: 300px;
+}
+
+.encPrincipal .encabezado{
+    float: left;
+    height: 300px;   
+    background-color: #023e8a;
+}
+
+.encPrincipal .encabezado .imgencabezado{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.encPrincipal .encabezado .pencabezado{
+   width: 100%;
+   text-align: center;
+   font-size: 25px;
+   margin: 60px auto;  
+   padding-left: 5px; 
+   color: #FFF;
+}
+
+/* Fin Header*/
+
+
+/* Inicio Menu*/
+.menu{
+    display: flex;
+    
+    margin-top: 10px;
+    background-color: #023e8a;
+}
+
+.menu .menucontainer .principal{
+   float: left;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 5px 115px 10px 115px; 
+    border-right: 1px solid #FFF;
+}
+
+.menu .menucontainer .last{
+   
+    border-right: 0px;
+}
+
+.menu .menucontainer a:hover{
+   background-color: #e56b6f;
+   font-size: medium;
+  font-weight: bold;
+}
+
+/* Final Menu*/
+
+/* Inicio Centro*/
+
+.centroprincipal{
+    height: 300px;
+    margin-top: 10px;
+}
+
+.centroprincipal .centro{
+    float: left;
+    height: 100%;
+    background-color: #f2e9e4;
+    
+}
+
+.centroprincipal .centro .centroimg{
+   display: block;
+   width: 90%;
+   height: 90%;
+   margin: 25px auto;
+}
+
+.centroprincipal .centro .centroart .pcentro{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    margin: 60px auto;   
+ }
+
+/* Final Centro*/
+
+/* Inicio Imagenes*/
+
+.finalimg{
+    height: 300px;
+    margin-top: 5px;
+    background-color: #f2e9e4;
+}
+
+.finalimg .final{
+    float: left;
+}
+
+.finalimg .final .imgf{
+    display: block;
+    width: 90%;
+    height: 200px;
+    margin: 50px auto;
+}
+
+/* Final Imagenes*/
+
+footer{
+    display: block;
+}
+
+.footer {
+    border-top:double;
+    clear: both;
+    height: 66px;
+    text-align: center;
+    background-color: #023e8a;
+    padding-top:15px;
+    color: #FFF;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+  
+ 
+
+  @media screen and (max-width: 768px) {
+    .menucontainer, .menucontainer .principal {     
+        width: 100%;
+        border-right: 0px;
+    }
+}
